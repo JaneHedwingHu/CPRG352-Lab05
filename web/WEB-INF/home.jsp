@@ -9,11 +9,21 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="Styles/index.css" type="text/css"/>   
         <title>Home Page</title>
     </head>
     <body>
-        <h1>Home Page</h1>
-        <h3>Hello ${username}.</h3>
-        <a href=login?logout>Log out</a>
+            <div class = "main-block">
+                <table>
+                    <tr><td>
+                            <h1>Home Page</h1></td>
+                    </tr>
+                    <tr><td>
+                    <h3>Hello ${username}.</h3></td></tr>
+                    <tr><td>
+                            <a href=login?logout>Log out</a></td>
+                    </tr>
+                    </table>
+            </div>
     </body>
 </html>
